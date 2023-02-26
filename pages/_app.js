@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1" 
         />
         <title>
-          Pungent - React Multipurpose Startup & Digital Agency Template
+          YangMC - Minecraft | We sell Ranks, Keys and Other magical items to expand your journey!
         </title>
       </Head>
 

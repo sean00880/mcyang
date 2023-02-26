@@ -44,7 +44,7 @@ const MainBanner = () => {
               <div className="buttons">
                 <div className="button_wrapper">
                     <span className="span">Discover Us On Discord:</span> <hr />
-              <Link href="/blog">
+              <Link href="https://discord.gg/vr5up7mW">
                       
                       <button class="button" id="lineExpand"><span class="button--icon"><img src="/images/discord_logo2.png" alt=""/></span><span class="button--text">Discord</span></button>
   
@@ -52,7 +52,7 @@ const MainBanner = () => {
               </div>
                 <div className="button_wrapper">
                 <span className="span">Shop Now:</span> <hr />
-                      <Link href="/contact">
+                      <Link href="https://www.store.yangmc.ink/">
                       <button class="button" id="bubbleBorder"><span class="button2--icon"><img src="/images/store_logo.png" alt=""/></span><span class="button--text">Store</span></button>
                      
                       </Link>
