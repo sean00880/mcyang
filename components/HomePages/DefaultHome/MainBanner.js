@@ -52,7 +52,7 @@ const MainBanner = () => {
               </div>
                 <div className="button_wrapper">
                 <span className="span">Shop Now:</span> <hr />
-                      <Link href="https://store.yangmc.ink/">
+                      <Link href="https://store.yangmc.net/">
                       <button class="button" id="bubbleBorder"><span class="button2--icon"><img src="/images/store_logo.png" alt=""/></span><span class="button--text">Store</span></button>
                      
                       </Link>
