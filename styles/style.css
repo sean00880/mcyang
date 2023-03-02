@@ -793,7 +793,7 @@ Main Banner CSS
 .main-banner {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  height: 100%;
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6785,11 +6785,49 @@ span.new {
 }
 
 .logoImage{
-  background-image: url('https://i.ibb.co/ZVx61F4/minecraft-logobig.png');
+  background-image: url('https://i.ibb.co/Csqpy5Y/block.png');
   background-position: center;
   width: 400px;
   height: 300px;
   background-size: cover;
+  z-index: 0;
+}
+
+.wing1{
+  background-image: url('https://i.ibb.co/vhKDxkL/wing1.png');
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+}
+
+.wing2{
+  background-image: url('https://i.ibb.co/KqSqccw/wing2.png');
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+}
+
+.y{
+  background-image: url('https://i.ibb.co/HhnCXbn/y.png');
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+}
+
+html{
+  cursor:url(/images/y.png), auto;
 }
 
 .logoText{
